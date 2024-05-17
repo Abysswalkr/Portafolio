@@ -1,8 +1,58 @@
-# React + Vite
+# Jose Luis Gramajo's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto es un portafolio personal desarrollado para mostrar los proyectos y habilidades de Jose Luis Gramajo. Incluye una página de inicio con un resumen de las habilidades, una sección dedicada a las tecnologías utilizadas, una página "Sobre Mi" con información personal y enlaces a redes sociales, y una sección de proyectos que detalla los trabajos realizados.
+
+## Objetivos del Proyecto
+
+- Aplicar conocimientos prácticos de React y Vite en un proyecto real.
+- Crear un portafolio interactivo y visualmente atractivo.
+- Implementar una navegación fluida utilizando React Router.
+- Utilizar Tailwind CSS para un diseño moderno y responsivo.
+
+## Tecnologías Utilizadas
+
+- **React**: Utilizado para construir la interfaz de usuario debido a su eficiencia y respaldo comunitario.
+- **Vite**: Elegido como herramienta de construcción por su velocidad y simplicidad.
+- **Tailwind CSS**: Para estilos, con un enfoque en diseño responsivo y utilidades CSS.
+- **React Router**: Para manejar la navegación dentro de la aplicación.
+
+## Características
+
+- **Visualización de Proyectos**: Los usuarios pueden ver los diferentes proyectos realizados con detalles y capturas de pantalla.
+- **Página de Tecnologías**: Lista las tecnologías que el desarrollador domina y ha utilizado en sus proyectos.
+- **Página "Sobre Mi"**: Información personal del desarrollador, enlaces a redes sociales y una breve descripción de su formación.
+- **Diseño Responsivo**: El diseño se adapta a diferentes tamaños de pantalla, desde móviles hasta escritorios.
+- **Animaciones**: Incluye animaciones para una experiencia de usuario más atractiva.
+
+## Cómo Ejecutar el Proyecto Localmente
+
+1. **Clonar el repositorio**:
+    ```sh
+    git clone https://github.com/your_user_name/Portfolio.git
+    ```
+2. **Instalar las dependencias**:
+    ```sh
+    cd Portfolio
+    npm install
+    ```
+3. **Ejecutar el servidor de desarrollo**:
+    ```sh
+    npm run dev
+    ```
+
+## Seguridad
+
+El portafolio no maneja datos sensibles ni autenticación, ya que su objetivo principal es la presentación visual y la demostración de habilidades.
+
+## Contribuir
+
+Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
+
+## Contacto
+
+Jose Luis Gramajo - joseluisgm1403@gmail.com
+
+GitHub: [https://github.com/your_github_username](https://github.com/your_github_username)
