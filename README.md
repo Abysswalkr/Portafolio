@@ -31,7 +31,7 @@ Este proyecto es un portafolio personal desarrollado para mostrar los proyectos 
 
 1. **Clonar el repositorio**:
     ```sh
-    git clone https://github.com/your_user_name/Portfolio.git
+    git clone https://github.com/Abysswalkr/Portafolio.git
     ```
 2. **Instalar las dependencias**:
     ```sh
@@ -55,4 +55,4 @@ Las contribuciones son lo que hacen que la comunidad de código abierto sea un l
 
 Jose Luis Gramajo - joseluisgm1403@gmail.com
 
-GitHub: [https://github.com/your_github_username](https://github.com/your_github_username)
+GitHub: [https://github.com/Abysswalkr](https://github.com/Abysswalkr)
