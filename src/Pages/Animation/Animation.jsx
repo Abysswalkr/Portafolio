@@ -1,11 +1,19 @@
 import React from 'react';
+import styles from './Animation.module.css'; // Asegúrate de que la ruta es correcta
 
-const Animation = () => {
+const Animacion = () => {
     return (
-        <div>
-            <h1>Animation</h1>
+        <div className={styles.cubes}>
+            <div className={styles.loop}>
+                <div className={styles.item}></div>
+                <div className={styles.item}></div>
+                <div className={styles.item}></div>
+                <div className={styles.item}></div>
+                <div className={styles.item}></div>
+                <div className={styles.item}></div>
+            </div>
         </div>
     );
-};
+}
 
-export default Animation; // Exportación por defecto
+export default Animacion;
