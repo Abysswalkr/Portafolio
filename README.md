@@ -1,6 +1,5 @@
 # Jose Luis Gramajo's Portfolio
 
-
 ## Descripción del Proyecto
 
 Este proyecto es un portafolio personal desarrollado para mostrar los proyectos y habilidades de Jose Luis Gramajo. Incluye una página de inicio con un resumen de las habilidades, una sección dedicada a las tecnologías utilizadas, una página "Sobre Mi" con información personal y enlaces a redes sociales, y una sección de proyectos que detalla los trabajos realizados.
@@ -50,6 +49,10 @@ El portafolio no maneja datos sensibles ni autenticación, ya que su objetivo pr
 ## Contribuir
 
 Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar tan increíble para aprender, inspirar y crear. Cualquier contribución que hagas será muy apreciada.
+
+## Despliegue
+
+El portafolio está desplegado en el siguiente enlace: [https://portafolio-pied-delta.vercel.app/](https://portafolio-pied-delta.vercel.app/)
 
 ## Contacto
 
