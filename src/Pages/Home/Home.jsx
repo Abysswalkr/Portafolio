@@ -2,6 +2,12 @@ import styles from './Home.module.css';
 import Animacion from '../Animation/Animation.jsx'; 
 
 const Home = () => {
+    // Función para manejar el clic en el botón de Gmail
+    const handleGmailClick = () => {
+        // Redirige al usuario a Gmail con el correo prellenado
+        window.location.href = 'mailto:joseluisgm1403@gmail.com';
+    };
+
     return (
         <section className={styles.Inicio}>
             <article className={styles.full}>
@@ -13,19 +19,17 @@ const Home = () => {
                     <div></div>
                 </div> 
             </article>
-
+            <Animacion/>
             <div className={styles.botones}>
                 <h2>José Gramajo</h2>
                 <div>
-                   <a href="mailto:joseluisgm1403@gmail.com">GMAIL</a> 
-                   <a href="#">CV</a>   
+                   {/* Botón de Gmail con evento onClick */}
+                   <button className={styles.botonLink} onClick={handleGmailClick}>GMAIL</button>
+                   <a className={styles.botonLink} href="https://drive.google.com/file/d/1u67QI-b0zCf-KCajzcyW3MeGqmed9p2C/view?usp=sharing" target="_blank">CV</a>   
                 </div>
             </div>
-
-            <Animacion/>
         </section>
     );
 }
 
 export default Home;
-

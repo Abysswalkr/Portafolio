@@ -7,8 +7,8 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 20vh;
-    position: relative; /* Añadir esto para asegurarse de que los elementos hijos se posicionen correctamente */
-    background: linear-gradient(to right, rgb(141, 171, 223),rgb(239, 148, 148)); /* Añadir un fondo gradiente para mejorar la apariencia */
+    position: relative;
+    background: linear-gradient(to right, rgb(141, 171, 223), rgb(239, 148, 148));
 }
 
 h1, h2 {
@@ -20,9 +20,11 @@ h1, h2 {
 .full {
     z-index: 9;
     max-width: 420px;
-    height: auto; /* Cambiado de 200px a auto para ajustar la altura automáticamente */
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Asegura que el contenido esté centrado horizontalmente */
+    justify-content: center; /* Asegura que el contenido esté centrado verticalmente */
     gap: 20px;
 }
 
@@ -73,7 +75,7 @@ h1, h2 {
     gap: 20px;
 }
 
-.botones div a {
+.botonLink {
     color: #fc466b;
     width: 140px;
     height: 45px;
@@ -85,9 +87,11 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    background: none; /* Ensure button has no background */
+    cursor: pointer; /* Ensure button shows pointer cursor */
 }
 
-.botones div a:hover {
+.botonLink:hover {
     background: linear-gradient(180deg, #3f5efb, #fc466b);
     color: white;
 }

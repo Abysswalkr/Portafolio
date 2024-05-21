@@ -1,19 +1,18 @@
 import React from 'react';
-import styles from './Animation.module.css'; // Asegúrate de que la ruta es correcta
+import styles from './Animation.module.css'; 
 
-const Animacion = () => {
+const Animation = () => {
     return (
-        <div className={styles.cubes}>
-            <div className={styles.loop}>
-                <div className={styles.item}></div>
-                <div className={styles.item}></div>
-                <div className={styles.item}></div>
-                <div className={styles.item}></div>
-                <div className={styles.item}></div>
-                <div className={styles.item}></div>
-            </div>
+        <div className={styles.pyramidLoader}>
+            <div className={styles.wrapper}>
+                <span className={`${styles.side} ${styles.side1}`}></span>
+                <span className={`${styles.side} ${styles.side2}`}></span>
+                <span className={`${styles.side} ${styles.side3}`}></span>
+                <span className={`${styles.side} ${styles.side4}`}></span>
+                <span className={styles.shadow}></span>
+            </div>  
         </div>
     );
 }
 
-export default Animacion;
+export default Animation;

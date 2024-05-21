@@ -1,67 +1,60 @@
-.AboutMe{
-    padding-bottom: 8vh ;
+.AboutMe {
+    padding-bottom: 8vh;
     width: 85%;
     height: 92vh;
     margin: auto;
     display: grid;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    grid-template-columns: repeat(auto-fill,minmax(22rem, 1fr));
-}
-
-.AboutMe .intro{
+    gap: 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  }
+  
+  .AboutMe .intro {
     z-index: 9;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Asegura que el contenido esté centrado horizontalmente */
     gap: 20px;
-}
-
-.AboutMe .intro .img {
+  }
+  
+  .AboutMe .intro .img {
     margin: auto;
-}
-
-.AboutMe .intro .img img {
+  }
+  
+  .AboutMe .intro .img img {
     width: 250px;
     height: 250px;
     border: 4px solid rgb(223, 3, 204);
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
-.AboutMe .intro p{
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.AboutMe .intro .adornos div{
-  width: 10px;
-  height: 10px;
-  background-color:rgb(223, 3, 204) ;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.AboutMe .intro .adornos{
+  }
+  
+  .AboutMe .intro p {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .AboutMe .intro .adornos div {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(223, 3, 204);
+    border-radius: 50%;
+  }
+  
+  .AboutMe .intro .adornos {
     display: flex;
     gap: 5px;
-}
-
-.AboutMe .edu{
+  }
+  
+  .AboutMe .edu {
     z-index: 9;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Asegura que el contenido esté centrado horizontalmente */
     gap: 20px;
-}
-
-.AboutMe .edu div{
+  }
+  
+  .AboutMe .edu div {
     min-width: 310px;
     border: 2px solid rgb(223, 3, 204);
     border-radius: 10px;
@@ -70,34 +63,36 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     gap: 8px;
-}
-
-.AboutMe .edu div:hover{
-    background:linear-gradient(180deg, #3f5efb, #fc466b) ;
+  }
+  
+  .AboutMe .edu div:hover {
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
     color: antiquewhite;
-}
+  }
 
-@media (max-width: 900px){
-
-    .AboutMe{
-        height: auto;
-        padding-bottom:16vh ;
+  .AboutMe .edu h2 {
+    font-size: 2.5rem; /* Ajusta el tamaño de fuente según tu preferencia */
+    font-weight: bold; /* Asegura que el texto esté en negrita */
+  }
+  
+  
+  @media (max-width: 900px) {
+    .AboutMe {
+      height: auto;
+      padding-bottom: 16vh;
     }
-    .AboutMe .intro .img img{
-        width: 200px;
-        height: 200px;
+    .AboutMe .intro .img img {
+      width: 200px;
+      height: 200px;
     }
-
-    .AboutMe .intro{
-        justify-content: center;
-        align-items: center;
+    .AboutMe .intro {
+      justify-content: center;
+      align-items: center;
     }
-
-    .AboutMe .intro p{
-        width: 290px;
+    .AboutMe .intro p {
+      width: 290px;
     }
-
-    
-}
+  }
+  
